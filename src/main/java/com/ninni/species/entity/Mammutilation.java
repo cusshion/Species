@@ -171,7 +171,7 @@ public class Mammutilation extends PathfinderMob {
     protected void defineSynchedData() {
         super.defineSynchedData();
         this.entityData.define(COUGH_COOLDOWN, 30 * 20 + random.nextInt(60 * 2 * 20));
-        this.entityData.define(ICHOR_COUNT, 5);
+        this.entityData.define(ICHOR_COUNT, 2);
         this.entityData.define(ICHOR_COOLDOWN, 0);
     }
 
